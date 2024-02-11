@@ -1,0 +1,40 @@
+/*
+selector {
+  attribute: attributeValue;
+}
+
+*/
+
+body {
+  background: #000000;
+}
+
+h1 {
+  font-size: 90px;
+}
+
+img {
+  border: 1px solid rgb(0, 255, 0);
+}
+
+/*
+  color white   -> (255, 255, 255)
+  white in hexa -> #FFFFFF
+*/
+
+/*
+  green color rgb  -> (0, 255, 0)
+  green color hexa -> #00FF00
+*/
+
+/*
+  color black rgb -> (0,0,0)
+  color in hexa   -> #000000
+*/
+
+/*
+Colors in css
+hexadecimal code #(16^0 16^1)(16^0 16^1)(16^0 16^2)
+rgb -> (red, green, blue) -> (0->255, 0->255, 0->255)
+hsl
+*/

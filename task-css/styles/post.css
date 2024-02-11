@@ -1,0 +1,27 @@
+div.header {
+  display: grid;
+  /* grid-template-columns: 100px 100px 100px;
+  grid-template-columns: repeat(3, 100px); */
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+}
+ul {
+  list-style-type: none;
+  display: flex;
+}
+div {
+  display: flex;
+  flex-wrap: wrap;
+}
+div.content div {
+  width: 33%;
+}
+@media (max-width: 900px) {
+  div.content div {
+    width: 50%;
+  }  
+}
+@media (max-width: 500px) {
+  div.content div {
+    width: 100%;
+  }  
+}

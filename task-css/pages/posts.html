@@ -1,0 +1,156 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../style/index.css">
+  <style>
+    body{
+      background-color: #eaeaea;
+    }
+    .container{
+      display: inline-block;
+    }
+    .box{
+      display: inline-block;
+      border-radius: 5px;
+      width: 250px;
+      height: 350px;
+      margin: 20px;
+      background-color: rgb(255, 255, 255);
+    }
+    .box .imgg{
+      width: 95%;
+      padding: 2.5%;
+    }
+    .box h2{
+      position: relative;
+      margin: 10px;
+    }
+    .box p{
+      margin: 10px;
+      font-size: 90%;
+    }
+    .search-container {
+      margin: 20px;
+      display: flex;
+      align-items: center;
+      width: 300px;
+    }
+    
+    input{
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      width: 70%;
+      font-size: 16px;
+    }
+    
+    button {
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    
+    button:hover {
+      background-color: #0056b3;
+    }
+    
+    .dropdown-container {
+      margin: 20px;
+      display: inline-block;
+    
+    }
+    
+    label {
+      font-size: 16px;
+      margin-right: 10px;
+    }
+    
+    select {
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 5px;
+    }
+    .con_one{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+    
+    @media screen and (max-width: 600px) {
+      .search-container {
+          width: 100%;
+      }
+    
+      input {
+          width: 60%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="con_one">
+  <div class="search-container">
+      <input type="text" placeholder="Search...">
+      <button type="submit">Search</button>
+  </div>
+  <div class="dropdown-container">
+      <select id="cars" name="cars">
+          <option value="">Filter by region</option>
+          <option value="saab">a</option>
+          <option value="mercedes">b</option>
+          <option value="audi">c</option>
+      </select>
+  </div>
+</div>
+ <div class="container">
+  <div class="box">
+      <img src="../imgs/R.jpg" alt="" class="imgg">
+      <h2>Egypt</h2>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis inventore quia, deleniti, distinctio qui dolores, animi quae sunt optio commodi quis quo debitis eos sequi ratione eveniet veniam. Incidunt, consectetur.</p>
+  </div>
+  <div class="box">
+      <img src="../imgs/R.jpg" alt="" class="imgg">
+      <h2>Egypt</h2>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis inventore quia, deleniti, distinctio qui dolores, animi quae sunt optio commodi quis quo debitis eos sequi ratione eveniet veniam. Incidunt, consectetur.</p>
+  </div>
+  <div class="box">
+      <img src="../imgs/R.jpg" alt="" class="imgg">
+      <h2>Egypt</h2>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis inventore quia, deleniti, distinctio qui dolores, animi quae sunt optio commodi quis quo debitis eos sequi ratione eveniet veniam. Incidunt, consectetur.</p>
+  </div>
+  <div class="box">
+      <img src="../imgs/R.jpg" alt="" class="imgg">
+      <h2>Egypt</h2>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis inventore quia, deleniti, distinctio qui dolores, animi quae sunt optio commodi quis quo debitis eos sequi ratione eveniet veniam. Incidunt, consectetur.</p>
+  </div>
+  <div class="box">
+      <img src="../imgs/R.jpg" alt="" class="imgg">
+      <h2>Egypt</h2>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis inventore quia, deleniti, distinctio qui dolores, animi quae sunt optio commodi quis quo debitis eos sequi ratione eveniet veniam. Incidunt, consectetur.</p>
+  </div>
+  <div class="box">
+      <img src="../imgs/R.jpg" alt="" class="imgg">
+      <h2>Egypt</h2>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis inventore quia, deleniti, distinctio qui dolores, animi quae sunt optio commodi quis quo debitis eos sequi ratione eveniet veniam. Incidunt, consectetur.</p>
+  </div>
+  <div class="box">
+      <img src="../imgs/R.jpg" alt="" class="imgg">
+      <h2>Egypt</h2>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis inventore quia, deleniti, distinctio qui dolores, animi quae sunt optio commodi quis quo debitis eos sequi ratione eveniet veniam. Incidunt, consectetur.</p>
+  </div>
+  <div class="box">
+      <img src="../imgs/R.jpg" alt="" class="imgg">
+      <h2>Egypt</h2>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis inventore quia, deleniti, distinctio qui dolores, animi quae sunt optio commodi quis quo debitis eos sequi ratione eveniet veniam. Incidunt, consectetur.</p>
+  </div>
+ </div>
+</body>
+</html>
