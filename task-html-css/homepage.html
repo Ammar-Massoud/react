@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="styles/home.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="header">
+      <h1>
+        <img src="images/logo.svg" />
+      </h1>
+      <ul class="hidden sm-block">
+        <li>About</li>
+        <li>Discover</li>
+        <li>Get started</li>
+      </ul>
+      <button class="block sm-hidden" id="side-menu">
+        <img src="./images/icon-hamburger.svg" width="50px" />
+      </button>
+    </div>
+    <div class="image">
+      <img src="images/image-hero-desktop.jpg" class="full-image" />
+    </div>
+    <div class="content">
+      <div class="small-box">
+        <img src="./images/logo-mastercraft.svg" width="64px" class="absolute" />
+        <div class="text-center">
+          <h1>MasterCraft Bambo Moniter Rising</h1>
+          <p>This, is simple Text This is simple Text This is simple Text This is simple Text This is simple Text</p>
+          <form id="form-submit">
+            <input type="color" id="my-color" />
+            <input type="submit" value="set color">
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="float-menu hidden">
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact us</li>
+      </ul>
+    </div>
+    <script>
+      let form = document.getElementById("form-submit");
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+        let color = e.target.querySelector("#my-color").value;
+        document.body.style.background = color;
+        document.body.querySelector(".small-box").style.background = color;
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,84 @@
+selector {
+  attr: atrrValue
+};
+body {
+  margin: 0;
+  padding: 0;
+  height: 3000px;
+}
+img.full-image {
+  width: 100%;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  width: 90%;
+  margin-left: 30px;
+}
+.header ul {
+  display: flex;
+  list-style-type: none;
+}
+.header ul li {
+  margin: 5px 30px;
+  color: #ffffff;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  background: #EEE;
+  position: relative;
+}
+.small-box {
+  background: #FFF;
+  padding: 20px;
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: -50px;
+  height: 64px;
+}
+.absolute {
+  position: absolute;
+  top: -32px;
+}
+.text-center {
+  text-align: center;
+}
+
+.hidden {
+  display: none !important;
+}
+.block {
+  display: block !important;
+}
+@media (min-width: 600px) {
+  .sm-block {
+    display: flex !important;
+  }
+  .sm-hidden {
+    display: none !important;
+  }
+}
+.float-menu {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: #EEE;
+  top: 0;
+  right: 0;
+}
+.float-menu ul {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  font-size: 30px;
+  list-style-type: none;
+}
